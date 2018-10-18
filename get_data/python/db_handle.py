@@ -5,13 +5,13 @@ import logging.config
 
 import pandas as pd
 
-from db_data import DB_HOST, DB_NAME, DB_USERNAME
 from constants import LIB_COMMON_DIR, PROJECT_DIR, STANDARD_TABLES
 
 sys.path.append(LIB_COMMON_DIR)
 sys.path.append(PROJECT_DIR)
 
 from config import config
+from db_data import DB_HOST, DB_NAME, DB_USERNAME
 from dbconnectors import PostgreSqlDb
 
 logger = logging.getLogger('main_logger')

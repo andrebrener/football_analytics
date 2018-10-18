@@ -47,8 +47,6 @@ def get_teams_stats(game_id):
             for s in stats
         }
 
-        import pdb; pdb.set_trace()  # noqa # yapf: disable
-
         for k, v in TEAMS_STATS_COLS.items():
             if k in all_stats.keys():
                 stats_dict[k] = [all_stats[k]]

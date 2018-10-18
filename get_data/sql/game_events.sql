@@ -21,7 +21,6 @@ CREATE TABLE game_events (
  pos_x decimal,
  pos_y decimal,
  possession_number integer,
- possession_time integer,
  video_seconds decimal,
  home_away VARCHAR (355),
  game_minutes integer,

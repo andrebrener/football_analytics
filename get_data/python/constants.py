@@ -92,12 +92,11 @@ GAME_EVENTS_COLS = {
     'opponent_id': 'second_player_id',
     'pos_dest_x': 'pos_dest_x',
     'pos_dest_y': 'pos_dest_y',
-    'pos_x': 'pos_dest_x',
-    'pos_y': 'pos_dest_y',
-    'position_id': 'pos_dest_y',
+    'pos_x': 'pos_x',
+    'pos_y': 'pos_y',
+    'position_id': 'position_id',
     'possession_id': 'possession_id',
     'possession_number': 'possession_number',
-    'possession_time': 'possession_time',
     'possession_team_id': 'possession_team_id',
     'second': 'video_seconds',
     'standart_id': 'play_standard_id',
@@ -199,7 +198,7 @@ POSITION_CODES = [
     16460, 16520, 16530, 16540, 16550, 16560
 ]
 
-INITIAL_CODES = [18010, 1021]
+INITIAL_CODES = [18010, 18020]
 
 # Removing codes:
 # tactical points

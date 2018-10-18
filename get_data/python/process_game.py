@@ -96,7 +96,7 @@ def get_original_time(df, half_start):
     if df['second'] - half_start > 0:
         return df['second'] - half_start
     elif df['action_id'] in INITIAL_CODES:
-        return 0
+        return -0.5
     else:
         return -1
 
@@ -131,20 +131,14 @@ def correct_time(df):
         ]
     )
 
+    # Add sequence number
+    game_df = game_df.reset_index().reset_index()
+    game_df.rename(columns={'level_0': 'sequence_number'}, inplace=True)
+
     return game_df
 
 
-def remove_unused_actions(df):
-    clean_df = df[~df['action_id'].isin(REMOVE_CODES)].copy()
-
-    # Add sequence number
-    final_df = clean_df.reset_index().reset_index()
-    final_df.rename(columns={'level_0': 'sequence_number'}, inplace=True)
-
-    return final_df
-
-
-def correct_types(df):
+def get_clean_df(df):
 
     no_format_cols = ['formation', 'home_away']
 
@@ -155,14 +149,10 @@ def correct_types(df):
     for c in [c for c in cols_to_correct if c not in no_format_cols]:
         df[c] = df[c].astype(float)
 
-    return df
+    codes_to_remove = REMOVE_CODES + POSITION_CODES
+    clean_df = df[~df['action_id'].isin(codes_to_remove)].copy()
 
-
-def get_clean_df(df):
-    clean_df = remove_unused_actions(df)
-    final_df = correct_types(clean_df)
-
-    return final_df
+    return clean_df
 
 
 def get_action_cols(df):
