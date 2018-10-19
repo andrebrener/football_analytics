@@ -127,7 +127,7 @@ def correct_time(df):
     ).sort_values(
         [
             'half', 'game_minutes', 'game_seconds', 'possession_number',
-            'action_name'
+            'action_id'
         ]
     )
 

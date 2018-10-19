@@ -69,7 +69,8 @@ if __name__ == '__main__':
 
     # game_data = ('1234775', ['857', '846'])
     # game_data = ('1234769', ['11052', '861'])
-    game_data = ('1234767', ['853', '844'])
+    # game_data = ('1234767', ['853', '844'])
+    game_data = ('1234772', ['853', '844'])
 
     # insert_game_events(game_data[0], game_data[1])
     df = process_game(get_game_events(game_data[0], game_data[1]))
