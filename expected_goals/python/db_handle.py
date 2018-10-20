@@ -21,15 +21,6 @@ os.chdir(LOGS_DIR)
 db = PostgreSqlDb(username=DB_USERNAME, host=DB_HOST, database=DB_NAME)
 
 
-def create_tables(tables):
-    sql_path = os.path.join(PROJECT_DIR, 'sql', '{}.sql')
-    for t in tables:
-        query = open(sql_path.format(t), 'r').read()
-        db.execute('DROP TABLE IF EXISTS {} CASCADE'.format(t))
-        db.execute(query)
-        logger.info("{} table created".format(t))
-
-
 def insert_values(df, table_name, stats_dict):
     df.rename(columns=stats_dict, inplace=True)
 

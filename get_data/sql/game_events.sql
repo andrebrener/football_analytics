@@ -13,7 +13,6 @@ CREATE TABLE game_events (
  position_id integer REFERENCES positions(id),
  possession_id integer REFERENCES possession_types(id),
  play_standard_id integer REFERENCES standards(id),
- direction decimal,
  half smallint,
  len decimal,
  pos_dest_x decimal,

@@ -46,7 +46,7 @@ STANDARD_TABLES = [
 
 STATS_TABLES = [
     'teams_info', 'games_info', 'players_info', 'teams_stats', 'players_stats',
-    'game_events'
+    'game_events', 'pred_stats'
 ]
 
 # Stats for views
@@ -85,7 +85,6 @@ GAME_EVENTS_COLS = {
     'attack_status_id': 'attack_status_id',
     'attack_type_id': 'attack_type_id',
     'body_id': 'body_id',
-    'direction': 'direction',
     'half': 'half',
     'len': 'len',
     'player_id': 'player_id',

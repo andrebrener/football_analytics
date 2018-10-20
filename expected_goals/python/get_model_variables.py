@@ -1,6 +1,6 @@
 from constants import (
     ASSIST_DICT, GOAL_IDS, OWN_GOAL_IDS, POS_START_IDS, RED_CARD_IDS,
-    REMOVE_CODES, VAR_COLS
+    REMOVE_CODES, SET_PIECE_STANDARDS
 )
 
 
@@ -148,7 +148,8 @@ def get_formations(df):
 
 def get_pos_starts(df, c):
     if df['possession_id'] in POS_START_IDS:
-        if df['is_shot'] > 0:
+        if df['is_shot'] > 0 and df['play_standard_id'
+                                    ] not in SET_PIECE_STANDARDS:
             return df['prev_{}'.format(c)]
         else:
             return df[c]
@@ -177,11 +178,12 @@ def get_possession_start(df):
 
 
 def get_prev_event(df):
-    for c in ['action_name', 'action_id', 'body_id', 'len']:
+    for c in ['action_name', 'action_id', 'body_id', 'len', 'direction']:
         df[c] = df[c].fillna(0)
         df['prev_{}'.format(c)] = df[c].shift()
 
     return df
+
 
 def get_clean_df(df):
     clean_df = df[df['possession_number'].notnull()]
@@ -204,7 +206,7 @@ def process_game(df):
     pos_start_df = get_possession_start(formations_df)
     prev_event_df = get_prev_event(pos_start_df)
 
-    final_df = prev_event_df[VAR_COLS]
+    final_df = prev_event_df
     return final_df
 
 
