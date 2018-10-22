@@ -6,15 +6,16 @@ import logging.config
 import pandas as pd
 
 from api_calls import get_api_call
-from constants import (
-    GAME_INFO_URL, PLAYERS_STATS_COLS, PLAYERS_TPL, PROJECT_DIR
+from constants_gd import (
+    GAME_INFO_URL, LIB_COMMON_DIR, PLAYERS_STATS_COLS, PLAYERS_TPL, PROJECT_DIR
 )
-from db_handle import insert_values
 from get_team_stats import dict_to_json
 
 sys.path.append(PROJECT_DIR)
+sys.path.append(LIB_COMMON_DIR)
 
 from config import config
+from db_handle import insert_values
 
 logger = logging.getLogger('main_logger')
 
@@ -31,7 +32,7 @@ def get_players_stats(game_id):
 
     players_dfs = []
     for t in teams:
-        logger.info("Getting players for {}".format(t['name']))
+        logger.info("Getting stats for players of {}".format(t['name']))
         for pl in t['player']:
             stats = pl['param']
             stats_dict = {}

@@ -7,12 +7,13 @@ from datetime import datetime
 
 import pandas as pd
 
-from constants import COLS_TO_INSERT, PROJECT_DIR
-from db_handle import insert_values
+from constants_xg import COLS_TO_INSERT, LIB_COMMON_DIR, PROJECT_DIR
 
 sys.path.append(PROJECT_DIR)
+sys.path.append(LIB_COMMON_DIR)
 
 from config import config
+from db_handle import insert_values
 
 logger = logging.getLogger('main_logger')
 

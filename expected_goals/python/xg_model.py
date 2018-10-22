@@ -10,7 +10,9 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GridSearchCV, train_test_split
 
 from build_X import build_X
-from constants import ID_COLS, MODEL, MODEL_FILES_DIR, PROJECT_DIR, TARGET_COL
+from constants_xg import (
+    ID_COLS, MODEL, MODEL_FILES_DIR, PROJECT_DIR, TARGET_COL
+)
 
 sys.path.append(PROJECT_DIR)
 

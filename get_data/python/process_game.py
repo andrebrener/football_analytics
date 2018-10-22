@@ -1,8 +1,8 @@
 import pandas as pd
 
-from constants import (
+from constants_gd import (
     ACTION_CODES, FORMATION_CODES, GAME_EVENTS_COLS, INITIAL_CODES,
-    POSITION_CODES, REMOVE_CODES
+    KICKOFF_CODES, POSITION_CODES, REMOVE_CODES
 )
 
 
@@ -97,6 +97,8 @@ def get_original_time(df, half_start):
         return df['second'] - half_start
     elif df['action_id'] in INITIAL_CODES:
         return -0.5
+    elif df['action_id'] in KICKOFF_CODES:
+        return 0
     else:
         return -1
 

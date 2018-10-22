@@ -8,16 +8,17 @@ from datetime import datetime
 import pandas as pd
 
 from api_calls import get_api_call
-from constants import (
-    LEAGUES, PLAYERS_IN_TEAM_TPL, PLAYERS_IN_TEAM_URL, PLAYERS_INFO_COLS,
-    PLAYERS_INFO_TPL, PLAYERS_INFO_URL, PROJECT_DIR, SEASONS, TEAMS_INFO_TPL,
-    TEAMS_INFO_URL
+from constants_gd import (
+    LEAGUES, LIB_COMMON_DIR, PLAYERS_IN_TEAM_TPL, PLAYERS_IN_TEAM_URL,
+    PLAYERS_INFO_COLS, PLAYERS_INFO_TPL, PLAYERS_INFO_URL, PROJECT_DIR,
+    SEASONS, TEAMS_INFO_TPL, TEAMS_INFO_URL
 )
-from db_handle import get_df_from_query, insert_values
 
 sys.path.append(PROJECT_DIR)
+sys.path.append(LIB_COMMON_DIR)
 
 from config import config
+from db_handle import get_df_from_query, insert_values
 
 logger = logging.getLogger('main_logger')
 

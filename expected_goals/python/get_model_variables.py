@@ -1,4 +1,4 @@
-from constants import (
+from constants_xg import (
     ASSIST_DICT, GOAL_IDS, OWN_GOAL_IDS, POS_START_IDS, RED_CARD_IDS,
     REMOVE_CODES, SET_PIECE_STANDARDS
 )
@@ -178,7 +178,7 @@ def get_possession_start(df):
 
 
 def get_prev_event(df):
-    for c in ['action_name', 'action_id', 'body_id', 'len', 'direction']:
+    for c in ['action_id', 'body_id', 'len']:
         df[c] = df[c].fillna(0)
         df['prev_{}'.format(c)] = df[c].shift()
 
@@ -211,6 +211,9 @@ def process_game(df):
 
 
 if __name__ == '__main__':
+    import sys
+    from constants_xg import LIB_COMMON_DIR
+    sys.path.append(LIB_COMMON_DIR)
     from db_handle import get_df_from_query
 
     game_id = '1234772'

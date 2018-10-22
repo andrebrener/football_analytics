@@ -7,12 +7,15 @@ import logging.config
 import pandas as pd
 
 from api_calls import get_api_call
-from constants import GAME_INFO_URL, PROJECT_DIR, TEAMS_STATS_COLS, TEAMS_TPL
-from db_handle import insert_values
+from constants_gd import (
+    GAME_INFO_URL, LIB_COMMON_DIR, PROJECT_DIR, TEAMS_STATS_COLS, TEAMS_TPL
+)
 
 sys.path.append(PROJECT_DIR)
+sys.path.append(LIB_COMMON_DIR)
 
 from config import config
+from db_handle import insert_values
 
 logger = logging.getLogger('main_logger')
 

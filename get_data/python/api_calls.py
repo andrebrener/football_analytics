@@ -3,6 +3,7 @@ import sys
 import json
 import logging
 import logging.config
+
 from time import sleep
 
 import requests
@@ -11,7 +12,7 @@ from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
 from api_keys import API_ID, API_KEY
-from constants import PROJECT_DIR
+from constants_gd import PROJECT_DIR
 
 sys.path.append(PROJECT_DIR)
 
@@ -48,8 +49,12 @@ def get_api_call(url_extension):
     )
     url = HOST + url_extension
 
+    r = requests_retry_session().get(url)
+
+    if r.status_code == 404:
+        logger.info('Invalid url: {}'.format(url))
+        sys.exit()
     try:
-        r = requests_retry_session().get(url)
         json_data = json.loads(r.text)
         return json_data
     except Exception:
@@ -63,8 +68,6 @@ if __name__ == '__main__':
 
     from datetime import date
 
-    from constants import GAME_INFO_URL
-
     sd = date(2018, 10, 7)
     ed = date(2018, 10, 9)
     game_id = '1234771'
@@ -72,7 +75,7 @@ if __name__ == '__main__':
     tournament_id = 93
     season_id = 22
 
-    url = GAME_INFO_URL.format(TEAMS_TPL, game_id)
+    url = '&tpl=42&match_id=1234771&lang_id=1&format=json'
 
     test = get_api_call(url)['data']
 

@@ -1,4 +1,6 @@
-from constants import FIXED_DUMMIES, ID_COLS, SET_PIECE_STANDARDS, TARGET_COL
+from constants_xg import (
+    FIXED_DUMMIES, ID_COLS, SET_PIECE_STANDARDS, TARGET_COL
+)
 
 
 def score_ranges(n):
