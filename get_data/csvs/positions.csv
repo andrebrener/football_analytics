@@ -1,0 +1,28 @@
+id,name
+12,Defender - Left
+13,Midfielder - Left
+14,Midfielder - Left
+15,Attacking midfielder - Left
+16,Forward - Left
+22,Defender - Left central
+23,Defensive midfielder - Left central
+24,Midfielder - Left central
+25,Attacking midfielder - Left central
+26,Forward - Left central
+31,Goalkeeper
+32,Defender - Central
+33,Defensive midfielder - Central
+34,Midfielder - Central
+35,Attacking midfielder - Central
+36,Forward - Central
+42,Defender - Right central
+43,Defensive midfielder - Right central
+44,Midfielder - Right central
+45,Attacking midfielder - Right central
+46,Forward - Right central
+52,Defender - Right
+53,Midfielder - Right
+54,Midfielder - Right
+55,Attacking midfielder - Right
+56,Forward - Right
+100,Substitute player

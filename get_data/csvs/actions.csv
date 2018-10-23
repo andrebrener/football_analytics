@@ -1,0 +1,283 @@
+code,main_code,name,action_id,action_type,win
+1000,0,Pass,1,0,0
+1010,1000,Attacking pass,1,1,0
+1011,1010,Attacking pass accurate,1,1,1
+1012,1010,Attacking pass inaccurate,1,1,2
+1020,1000,Non attacking pass,1,2,0
+1021,1020,Non attacking pass accurate,1,2,1
+1022,1020,Non attacking pass inaccurate,1,2,2
+1030,1000,Key pass,1,3,0
+1031,1030,Accurate key pass,1,3,1
+1032,1030,Inaccurate key pass,1,3,2
+1040,1000,Assist,1,4,0
+1050,1000,Key assist,1,5,0
+1060,1000,Extra attacking pass,1,6,0
+1061,1060,Extra attacking pass accurate,1,6,1
+1062,1060,Inaccurate extra attacking pass,1,6,2
+1070,1000,Extra attacking pass Assist,1,7,0
+2000,0,Challenges,2,0,0
+2010,2000,Challenge,2,1,0
+2012,2010,Lost challenge,2,1,2
+2020,2000,Air challenge,2,2,0
+2021,2020,Air challenges / won,2,2,1
+2022,2020,Air challenge lost,2,2,2
+2030,2000,Tackle,2,3,0
+2031,2030,Tackles successful,2,3,1
+2032,2030,Tackles unsuccessful,2,3,2
+2040,2000,Loss of a ball,2,4,0
+2050,2000,Dribble,2,5,0
+2051,2050,Successfull dribbling,2,5,1
+2052,2050,Unsuccessfull dribbling,2,5,2
+2060,2000,Ball recoveries,2,6,0
+3000,0,Discipline,3,0,0
+3010,3000,Foul,3,1,0
+3020,3000,Yellow card,3,2,0
+3030,3000,Red card,3,3,0
+3040,3000,Offside,3,4,0
+3050,3000,Foul suffered,3,5,0
+3060,3000,Yellow card - suffered,3,6,0
+3070,3000,Red card - suffered,3,7,0
+3080,3000,YC annulled,3,8,0
+3090,3000,YC suffered annulled,3,9,0
+3100,3000,RC for two YC,3,10,0
+3110,3000,2 min penalization for a rough foul,3,11,0
+3120,3000,Wasting time,3,12,0
+4000,0,Shot,4,0,0
+4010,4000,Shot on target,4,1,0
+4020,4000,Wide shot,4,2,0
+4030,4000,Shot into the bar/post,4,3,0
+4040,4000,Shot blocked,4,4,0
+4050,4000,Shot blocked by field player,4,5,0
+5000,0,Set piece,5,0,0
+5010,5000,Open play,5,1,0
+5020,5000,Throw-in,5,2,0
+5030,5000,Indirect free kick,5,3,0
+5040,5000,Free-kick,5,4,0
+5050,5000,Penalty,5,5,0
+5060,5000,Corner,5,6,0
+6000,0,Interception,6,0,0
+6010,6000,Shots blocked,6,1,0
+6012,6000,Shot interception (unsuccessful),6,1,2
+6020,6000,Pass interceptions,6,2,0
+6022,6000,Pass interception (unsuccessful),6,2,2
+6030,6000,Cross interception,6,3,0
+6032,6000,Cross interception (unsuccessful),6,3,2
+6040,6000,7570,6,4,0
+7000,0,Free ball pick up,7,0,0
+8000,0,Goal,8,0,0
+8010,8000,Goal,8,1,0
+8020,8000,Own goal,8,2,0
+9000,0,Clearance,9,0,0
+10000,0,Bad ball control,10,0,0
+11000,0,Ball possession,11,0,0
+12000,0,Attacks,12,0,0
+128000,0,Great action,128,0,0
+128010,0,Medical staff pause,128,1,0
+128020,0,Technical pause,128,2,0
+128030,0,Beginning of the analyzing part,128,3,0
+128040,0,Beginning of the analyzing part,128,4,0
+128100,0,Bad action,128,10,0
+128110,128000,Player's return after penalty,128,11,0
+128120,128000,Intervence,128,12,0
+128130,128000,Player receiving medical assistance on the sidelines,128,13,0
+128140,128000,Player's return after receiving medical assistance,128,14,0
+128150,128000,Combinations of 5 outfield players - total,128,15,0
+128160,128000,End of powerplay,128,16,0
+128170,128000,Lines on the pitch half,128,17,0
+128180,128000,Stop,128,18,0
+13000,0,Goalkeeper's action,13,0,0
+13010,13000,GK challenge,13,1,0
+13011,13010,Good interception of goalkeeper,13,1,1
+13012,13010,Bad interception of goalkeeper,13,1,2
+13020,13000,Shot on target,13,2,0
+13021,13020,Shots saved,13,2,1
+13022,13020,Shot conceded,13,2,2
+13030,13000,Penalty,13,3,0
+13031,13030,Penalties saved,13,3,1
+13032,13030,Penalties conceded,13,3,2
+13040,13000,Save,13,4,0
+14000,0,Substitution,14,0,0
+15000,0,Tactical formation,15,0,0
+15010,15000,Unknown,15,1,0
+15020,15000,3-1-4-2,15,2,0
+15030,15000,3-5-2,15,3,0
+15040,15000,4-1-4-1,15,4,0
+15050,15000,4-2-3-1,15,5,0
+15060,15000,4-3-3 down,15,6,0
+15070,15000,4-4-2 classic,15,7,0
+15080,15000,4-4-2 diamond,15,8,0
+15090,15000,4-3-3 up,15,9,0
+15100,15000,3-4-3,15,10,0
+15110,15000,3-5-2,15,11,0
+16000,0,Player's position,16,0,0
+161000,16000,Substitute player,16,100,0
+16120,16000,LD,16,12,0
+16130,16000,LDM,16,13,0
+16140,16000,LM,16,14,0
+16150,16000,LAM,16,15,0
+16160,16000,LF,16,16,0
+16220,16000,LCD,16,22,0
+16230,16000,LCDM,16,23,0
+16240,16000,LCM,16,24,0
+16250,16000,LCAM,16,25,0
+16260,16000,LCF,16,26,0
+16310,16000,GK,16,31,0
+16320,16000,CD,16,32,0
+16330,16000,CDM,16,33,0
+16340,16000,CM,16,34,0
+16350,16000,CAM,16,35,0
+16360,16000,CF,16,36,0
+16420,16000,RCD,16,42,0
+16430,16000,RCDM,16,43,0
+16440,16000,RCM,16,44,0
+16450,16000,RCAM,16,45,0
+16460,16000,RCF,16,46,0
+16520,16000,RD,16,52,0
+16530,16000,RDM,16,53,0
+16540,16000,RM,16,54,0
+16550,16000,RAM,16,55,0
+16560,16000,RF,16,56,0
+17000,0,Ball out of play,17,0,0
+18000,0,Status of the match,18,0,0
+18010,18000,1st half start,18,1,0
+18020,18000,2nd half start,18,2,0
+18030,18000,Half time,18,3,0
+18040,18000,Match end,18,4,0
+18050,18000,1st half of additional time start,18,5,0
+18060,18000,2nd half of additional time start,18,6,0
+18070,18000,Penalty shootout start,18,7,0
+18130,18000,Start of 3rd period,18,13,0
+19000,0,Grave mistake,19,0,0
+19010,19000,Grave mistake,19,1,0
+19020,19000,Grave goal mistakes,19,2,0
+19030,19000,Unforced mistake,19,3,0
+20000,0,Broadcast interruption,20,0,0
+21000,0,Possession,21,0,0
+22000,0,Ball receiving,22,0,0
+23000,0,Playing in scoring attacks,23,0,0
+24000,0,Final estimation,24,0,0
+25000,0,Average position Full match,25,0,0
+25010,0,Average position 1st half,25,1,0
+25020,0,Average position 2nd half,25,2,0
+26000,0,Cross,26,0,0
+26001,0,Crosses accurate,26,0,1
+26002,0,Crosses inaccurate,26,0,2
+26010,26000,Cross blocked,26,1,0
+26012,26000,Inaccurate blocked cross,26,1,2
+27000,0,Ball out of the field,27,0,0
+28000,0,Additional markers,28,0,0
+28010,28000,Diagonal pass,28,1,0
+28011,28000,Diagonal passes,28,1,1
+28012,28000,Diagonal passes,28,1,2
+28020,28000,Key interception,28,2,0
+28030,28000,Pass behind a player,28,3,0
+28031,28000,NULL,28,3,1
+28032,28000,NULL,28,3,2
+28040,28000,Set pieces crosses,28,4,0
+28041,28000,Set piece cross with shot,28,4,1
+28042,28000,Set piece cross with goal,28,4,2
+28043,28000,Accurate crossing from set piece,28,4,3
+28044,28000,Accurate crossing from set piece with a shot,28,4,4
+28045,28000,Accurate crossing from set piece with a goal,28,4,5
+28046,28000,Inaccurate set-piece cross,28,4,6
+28047,28000,Misplaced crossing from set piece with a shot,28,4,7
+28048,28000,Misplaced crossing from set piece with a goal,28,4,8
+28050,28000,"Players, that created offside trap",28,5,0
+28060,28000,Mistake while creating the offside trap,28,6,0
+28070,28000,Bicycle kick,28,7,0
+28080,28000,Successful play on offside line,28,8,0
+28090,28000,Opening,28,9,0
+28100,28000,At high speed,28,10,0
+28110,28000,Pass into offside,28,11,0
+29000,0,Points on the video,29,0,0
+29010,29000,Points on the video - tactical formation,29,1,0
+29020,29000,Points on the video - lineup at set piece,29,2,0
+29110,29000,Camera does not zoom in (general view only),29,11,0
+29120,29000,Camera makes sudden and quick movement,29,12,0
+29130,29000,Hole in the match (any hole longer than 1 sec.)(need to specify duration),29,13,0
+29140,29000,Poor quality,29,14,0
+29150,29000,Cameraman fails to catch the game (the ball in not in the frame),29,15,0
+29160,29000,"Poor camera work during corner (the taker is not filmed, poor view of the penalty area)",29,16,0
+29170,29000,Match squads are not presented before the game,29,17,0
+29180,29000,Match squads are on the screen for too long,29,18,0
+29190,29000,"The game is incorrectly trimmed, the start point of the game or a half is incorrectly set",29,19,0
+29200,29000,Cameraman talks during the game,29,20,0
+29210,29000,The closest running track is in the view,29,21,0
+29220,29000,Too much of the stands are in the view,29,22,0
+29230,29000,Camera is shaking,29,23,0
+29240,29000,Too zoomed-in,29,24,0
+29250,29000,Cameraman is poorly positioned on the stadium,29,25,0
+30000,0,Grave mistakes made by player,30,0,0
+30010,30000,Own goal,30,1,0
+30020,30000,"Losing the ball in own half (unsucc. dribble or trapping, non-attacking, key passes ), ( ! if there are no 2 grave mistakes in a row after that)",30,2,0
+30030,30000,Poorly timed or inappropriate action in attack that led to ball loss ( ! if there are no 2 grave mistakes in a row after that),30,3,0
+30040,30000,"Losing the player who scored when man-marking or failing at any challenge against him (ground, aerial, unsucc. tackle)",30,4,0
+30050,30000,"Goal, after dribbling past a player inside the box then shooting and scoring",30,5,0
+30060,30000,When player is unable to prevent a quick free kick after a foul (this task is on the nearest player),30,6,0
+30070,30000,When player precluded his goalkeeper from claiming the ball (e.g. by bumping into him on his way forward) and the poor play outside the goal area led to goal conceded (both players are given a serious error),30,7,0
+30080,30000,When player's clearance ends up at opponent's feet,30,8,0
+30090,30000,When player is unable to preclude opponent from shooting off a rebound,30,9,0
+30100,30000,When player is passive against opponent he is marking and is unable to prevent him from making assist,30,10,0
+30110,30000,When midfielder fails to stop opposing full-back who participates in attack that ends in goal,30,11,0
+30120,30000,Mistake when executing offside trap (if 1 or 2 players are deeper than the rest of defence),30,12,0
+30130,30000,"Goal, when 2 players cannot agree on who is marking opponent, both are given grave mistake",30,13,0
+30140,30000,"Goal, scored after a rebound off a player (if the ball path changed drastically)",30,14,0
+30150,30000,"Fouling inside the box when not in danger, including handball",30,15,0
+30160,30000,"Goal, when player marking a post fails to block a shot aimed at a gap between him and the post or above him (if the ball travels above him, the mistake is given ONLY if the player doesn't jump)",30,16,0
+30170,30000,"Goal, if after free kick the ball travels through the wall of defensive players (the mistake is given to the player who turned around or moved away from the ball's path)",30,17,0
+30180,30000,"Goal, if player forming a wall jumps and the ball travels under him or he doesn't jump when he could block the shot in the air)",30,18,0
+30190,30000,"Goal conceded when zone defence is used, and player leaves his teammates without numerical advantage",30,19,0
+30200,30000,"Goal, when 2 players cannot agree on who is marking opponent, both are given grave mistake",30,20,0
+30210,30000,Mistakes at set pieces. Zonal marking: Player leaves his zone unattended and opponents have advantage there. His zone is used to create goal,30,21,0
+30220,30000,At set pieces. Man-to-man marking: Losing any type of challenge,30,22,0
+30230,30000,At set pieces. Man-to-man marking: Losing opponent or not switching marking duties with teammate,30,23,0
+31000,0,Grave mistakes made by goalkeeper,31,0,0
+31010,31000,Free kick goal conceded after a shot towards the near corner,31,1,0
+31020,31000,Goal conceded after a shot from outside of penalty area (excluding penalty arc area),31,2,0
+31030,31000,Goal conceded after poor ball control,31,3,0
+31040,31000,Goal conceded after unsuccessful dribble attempt or goalkeeper is dispossessed,31,4,0
+31050,31000,Goal conceded after inaccurate pass that led to counter-attack,31,5,0
+31060,31000,Goal conceded after goalkeeper dripped the ball after claiming it,31,6,0
+31070,31000,Goal conceded directly from corner kick,31,7,0
+31080,31000,Goal conceded after the ball going through goalkeeper's legs (except 1-on-1 scenarios),31,8,0
+31090,31000,Goal conceded from a shot to the near corner from a sharp angle,31,9,0
+31100,31000,Goal conceded after goalkeeper is lobbed (except 1-on-1 scenarios),31,10,0
+31110,31000,Goal conceded from a free kick after goalkeeper claims a back pass from his teammate,31,11,0
+31120,31000,Goal conceded from a cross when goalkeeper didn't intercept the ball inside the goal area or the penalty area while unopposed,31,12,0
+31130,31000,"Goal conceded, when goalkeeper was unable to come forward and intercept the ball in open play: he saw the pass being made and could not get to the ball before attacker. Except when goalkeeper is blocked by other players",31,13,0
+31140,31000,Goal conceded after a shot from inside the penalty area but the shot is moderately powerful and travels at an arm's length to goalkeeper,31,14,0
+31150,31000,Goal conceded after goalkeeper made an unforced foul inside the penalty area (unless there was danger),31,15,0
+31160,31000,If goalkeeper bumps into defender (both are given a grave mistake),31,16,0
+31170,31000,Goal conceded after a cross is made from a set piece and goes into the net without touching any players,31,17,0
+31180,31000,Goal conceded after the goalkeeper puts the ball on the ground unaware of an opponent behind him and that opponent tackles him,31,18,0
+31190,31000,Goal conceded after goalkeeper fails to intercept a drilled cross travelling close to him,31,19,0
+32000,0,Chances,32,0,0
+32010,32000,Chance,32,1,0
+32011,32000,Chances successful,32,1,1
+32012,32000,Chance unsuccessful,32,1,2
+32020,32000,Chance was created by,32,2,0
+32030,32000,Chance was converted by,32,3,0
+32040,32000,Chance was not converted by,32,4,0
+33000,0,Team pressing,33,0,0
+33010,33000,Team pressing,33,1,0
+33011,33000,Team pressing successful,33,1,1
+33012,33000,Team pressing unsuccessful,33,1,2
+33020,33000,End of team pressing,33,2,0
+33021,33000,"End
+ of successful team pressing",33,2,1
+33022,33000,End of unsuccessful team pressing,33,2,2
+33030,33000,"Team pressing, participants",33,3,0
+33031,33000,"Team pressing successful, names of participants",33,3,1
+33032,33000,"Team pressing unsuccessful, names of participants",33,3,2
+34000,0,NULL,34,0,0
+35000,0,Syncing,35,0,0
+35010,35000,Syncing a half's time bar with the time shown in the video,35,1,0
+36000,0,Unsuccessful actions,36,0,0
+36010,36000,Penalty not awarded,36,1,0
+36020,36000,Offside not detected,36,2,0
+36030,36000,Foul not detected,36,3,0
+36040,36000,Goal disallowed,36,4,0
+36050,36000,Yellow card (not shown),36,5,0
+36060,36000,Red card (not shown),36,6,0
+36070,36000,Goal (mistakenly ruled legal),36,7,0
+36080,36000,Deferred foul,36,8,0
