@@ -1,0 +1,4 @@
+CREATE TABLE zones (
+ id integer PRIMARY KEY,
+ name VARCHAR (355) UNIQUE NOT NULL
+ );

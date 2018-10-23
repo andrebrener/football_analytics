@@ -124,10 +124,10 @@ def build_ranges(df):
     range_cols['game_minutes'] = time_ranges
     range_cols['len'] = distance_from_prev_event_ranges
 
-    for c in ['pos_dest_x', 'pos_started_pos_x', 'pos_x']:
+    for c in ['pos_dest_x', 'pos_x']:
         range_cols[c] = x_ranges
 
-    for c in ['pos_dest_y', 'pos_started_pos_y', 'pos_y']:
+    for c in ['pos_dest_y', 'pos_y']:
         range_cols[c] = y_ranges
 
     for _ in ['own', 'rival']:

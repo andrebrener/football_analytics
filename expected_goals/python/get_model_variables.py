@@ -120,7 +120,12 @@ def get_passes_in_possession(df):
 
     df[col_name] = df[col_name].apply(lambda x: x if x > 0 else 0)
 
+    df['next_pos'] = df['possession_number'].shift(-1)
     df['cons_passes_in_pos_done'] = df[col_name].shift()
+    df['cons_passes_in_pos_done'] = df.apply(
+        lambda x: x['cons_passes_in_pos'] if x['possession_number'] == x['next_pos'] else 0,
+        axis=1
+    )
 
     return df
 
@@ -160,7 +165,7 @@ def get_pos_starts(df, c):
 def get_possession_start(df):
     df['minsec'] = df['game_minutes'] * 60 + df['game_seconds']
 
-    for c in ['minsec', 'pos_x', 'pos_y']:
+    for c in ['minsec', 'zone_id']:
         df['prev_{}'.format(c)] = df[c].shift()
         df['pos_started_{}'.format(c)] = df.apply(
             lambda x: get_pos_starts(x, c), axis=1
@@ -212,8 +217,11 @@ def process_game(df):
 
 if __name__ == '__main__':
     import sys
+
     from constants_xg import LIB_COMMON_DIR
+
     sys.path.append(LIB_COMMON_DIR)
+
     from db_handle import get_df_from_query
 
     game_id = '1234772'
@@ -246,5 +254,6 @@ if __name__ == '__main__':
     df = get_df_from_query(query)
 
     test = process_game(df)
+
 
     import pdb; pdb.set_trace()  # noqa # yapf: disable
