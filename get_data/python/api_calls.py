@@ -67,15 +67,14 @@ if __name__ == '__main__':
     logging.config.dictConfig(config['logger'])
 
     from datetime import date
+    from constants_gd import GAMES_ID_URL, GAMES_TPL
 
-    sd = date(2018, 10, 7)
-    ed = date(2018, 10, 9)
-    game_id = '1234771'
-    TEAMS_TPL = 42
+    sd = date(2018, 10, 16)
+    ed = date(2018, 10, 18)
     tournament_id = 93
     season_id = 22
 
-    url = '&tpl=42&match_id=1234771&lang_id=1&format=json'
+    url = GAMES_ID_URL.format(GAMES_TPL, tournament_id, season_id, sd, ed)
 
     test = get_api_call(url)['data']
 

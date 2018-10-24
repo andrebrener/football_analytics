@@ -1,6 +1,8 @@
+requests
 pandas
 sqlalchemy
 progressbar
 psycopg2-binary
 psycopg2
 scikit-learn
+awscli
