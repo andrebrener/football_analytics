@@ -7,3 +7,4 @@ psycopg2
 scikit-learn
 awscli
 pyyaml
+pyhive
