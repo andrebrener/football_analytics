@@ -67,10 +67,11 @@ if __name__ == '__main__':
     logging.config.dictConfig(config['logger'])
 
     from datetime import date
+
     from constants_gd import GAMES_ID_URL, GAMES_TPL
 
-    sd = date(2018, 10, 16)
-    ed = date(2018, 10, 18)
+    sd = date(2018, 10, 22)
+    ed = date(2018, 10, 22)
     tournament_id = 93
     season_id = 22
 
