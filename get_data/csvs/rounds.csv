@@ -1,0 +1,659 @@
+id,name
+1,Week 1
+2,Week 2
+3,Week 3
+4,Week 4
+5,Week 5
+6,Week 6
+7,Week 7
+8,Week 8
+9,Week 9
+10,Week 10
+11,Week 11
+12,Week 12
+13,Week 13
+14,Week 14
+15,Week 15
+16,Week 16
+17,Week 17
+18,Week 18
+19,Week 19
+20,Week 20
+21,Week 21
+22,Week 22
+23,Week 23
+24,Week 24
+25,Week 25
+26,Week 26
+27,Week 27
+28,Week 28
+29,Week 29
+30,Week 30
+31,Week 31
+32,Week 32
+33,Week 33
+34,Week 34
+35,Week 35
+36,Week 36
+37,Week 37
+38,Week 38
+39,Week 39
+40,Week 40
+41,Qualifying round
+42,First qualifying round
+43,Second qualifying round
+44,Third qualifying round
+45,Group A
+46,Group B
+47,Group C
+48,Group D
+49,Group E
+50,Group F
+51,Group G
+52,Group H
+53,Group I
+54,Group J
+55,Round of 32
+56,Round of 16
+57,Quarter-final
+58,Semi-final
+59,Final
+60,Exhibition game
+61,Third place
+62,Group K
+63,Group L
+64,Week 41
+65,Week 42
+66,Week 43
+67,Week 44
+68,Week 45
+69,Week 46
+70,Preliminary Round
+71,1st Round
+72,2nd Round
+73,3rd Round
+74,4th Round
+75,5th Round
+76,6th Round
+77,5th Place Final
+78,7th Place Final
+79,9th Place Final
+80,11th Place Final
+81,Finals
+82,3rd Place
+83,5th Place
+84,Europa League Play-offs - 1st Round
+85,Europe League Play-offs - Final
+86,Apertura - Quarter-finals
+87,Apertura - Semi-finals
+88,Apertura - Finals
+89,Apertura - 3rd Place-Finals
+90,Europa League Play-off - Quarter-finals
+91,Europa League Play-off - Semi-finals
+92,Play-offs - 1st Round Finals
+93,Play-offs - 2nd Round Final
+94,Play-offs - Semi-final
+95,Play-offs - Finals
+96,Clausura - Quarter-finals
+97,Clausura - Semi Finals
+98,Championship Final
+99,Championship Final - Replay
+100,3rd Place Finals
+101,Championship Finals
+102,2nd Round Qualifying
+103,1st Round Qualifying
+104,Qualification Finals
+105,Qualification Finals 2
+106,Preliminary Final
+107,Grand Final
+108,Torneo de Invierno - Semi-finals
+109,Torneo de Invierno - Finals
+110,Torneo de Verano - Semi-finals
+111,Torneo de Verano - Finals
+112,Quarter Finals
+113,Semi Finals
+114,Play-offs 1st Round - Finals
+115,Play-offs 2nd Round - Finals
+116,Play-offs 3rd Round - Finals
+117,Qualification Play-offs
+118,1st Qualifying Round
+119,2nd Qualifying Round
+120,3rd Qualifying Round
+121,Play-offs
+122,Promotion Play-offs - Semi Final
+123,Promotion Play-offs - Final
+124,Europa League Play-off - Final
+125,Europa League Play-offs - 2nd Round
+126,Play-off II Finals
+127,Apertura - 3rd Place Finals
+128,Clausura - Semi-finals
+129,Clausura - Finals
+130,Play-offs 4th Round - Finals
+131,Copa Sudamericana Play-offs - 1st Phase Finals
+132,Promotion Play-offs - Semi-finals
+133,Europa League Play-offs - Semi-finals
+134,Europa League Play-offs - Finals
+135,Championship Play-offs - Quarter-finals
+136,Championship Play-offs - Semi-finals
+137,Championship Play-offs - Final
+138,Play-offs 5th Round - Finals
+139,Promotion Play-offs - Finals
+140,Qualifying Play-offs
+141,Quarter - Finals
+142,Semi - Finals
+143,Play-offs - Semi-finals
+144,Play-offs - Final
+145,Central American Zone Play-offs
+146,Pre-qualification 2.Liga
+147,Qualification 2.Liga - 1st Round
+148,Qualification 1.Liga - 1st Round
+149,Qualification 2.Liga - 2nd Round
+150,Qualification 1.Liga - 2nd Round
+151,Qualification 2.Liga - 3rd Round
+152,32th Finals
+153,1st Preliminary Round
+154,2nd Preliminary Round
+155,1st Round Replays
+156,2nd Round Replays
+157,3rd Round Replays
+158,4th Round Replays
+159,5th Round Replays
+160,Quarter-finals Replays
+161,Play-off
+162,1st Round Qualifying Replays
+163,2nd Round Qualifying Replays
+164,3rd Round Qualifying
+165,3rd Round Qualifying Replays
+166,4th Round Qualifying
+167,4th Round Qualifying Replays
+168,7th Round
+169,8th Round
+170,8th Finals Play-off
+171,Semi-finals Replays
+172,6th Round Replays
+173,Super Cup
+174,Preliminary Round Replays
+175,11th Place
+176,9th Place
+177,7th Place
+178,Friendlies 1
+179,Friendlies 2
+180,Friendlies 3
+181,Matches
+182,Copa Sudamericana Play-offs - 2nd Phase Finals
+183,Play-offs 6th Round - Finals
+184,Play-In Round - Finals
+185,Conference - Semi-finals
+186,Conference - Finals
+187,MLS Cup Final
+188,Clausura -  Final
+189,Special Play-off
+192,Taca Guanabara  - Semi-finals
+193,Trofeu Washington Rodrigues - Semi-finals
+194,Trofeu Washington Rodrigues Final
+196,Taca Rio - Semi-finals
+197,Trofeu Carlos Alberto - Semi-finals
+198,Trofeu Carlos Alberto - Final
+199,Taca Rio - Final
+201,Trofeu Edilson Silva - Semi-finals
+202,Trofeu Edilson Silva - Final
+203,Trofeu Luiz Penido - Semi-finals
+204,Trofeu Luiz Penido - Final
+205,1st Round - Quarter-finals
+206,1st Round - Semi-finals
+207,1st Round - Final
+208,2nd Round - Quarter-finals
+209,2nd Round Semi-finals
+210,2nd Round - Final
+211,2nd Round - Semi-finals
+213,Torneo do Interior - Semi-finals
+214,Torneo do Interior - Finals
+215,1st Round Final
+216,2nd Round Final
+217,Taca do Interior
+218,1st Phase - Semi-finals
+219,1st Phase - Finals
+220,2nd Phase - Semi-finals
+221,2nd Phase - Finals
+222,1st Phase - Final
+223,2nd Phase - Final
+224,Super Finals
+225,1st Round - Finals
+226,2nd Round - Finals
+227,2nd Round - Semi -finals  
+228,Top Friendlies
+229,Friendlies
+230,Championship - Finals
+231,1st Round Finals
+232,2nd Round Finals
+233,Final 1st Stage
+234,Play-off Round
+235,Championship Semi-finals
+236,Promotion Play-offs - Quarter-finals
+237,Relegation Play-offs - Finals
+238,Central American Play-offs
+239,2nd Round Replay
+240,Copa Sudamericana Play-offs - Finals
+241,Europe League Play-offs - Finals
+242,Week 47
+243,Week 48
+244,Super Copa
+245,Super Copa - Finals
+246,Qualification 1.liga Promotion
+247,Qualification 1.liga Classic - 1st Rnd 
+248,Extra Preliminary Round
+251,Group 12
+252,Group 11
+253,Group 10
+254,Group 9
+255,Group 8
+256,Group 7
+257,Group 6
+258,Group 5
+259,Group 4
+260,Group 3
+261,Group 2
+262,Group 1
+263,Europa League Play-offs - Quarter-finals
+264,Europa League Play-offs - Final
+265,Clausura - Final
+266,Taca Guanabara - Semi-finals
+267,Apertura - Preliminary Semi-finals
+268,Clausura - Preliminary Semi-finals
+269,Qualification 1.liga Classic - 2nd Rnd
+270,1st Phase - Quarter-finals
+271,Championship Quarter-finals
+272,2nd Phase - Quarter-finals
+273,Extra Preliminary Round Replays
+274,Promotion Play-offs
+275,Sectional Quarter-finals
+276,Sectional Semi-finals
+277,Sectional Finals
+278,Quarter-finals Replay
+279,Regular Season
+280,Relegation Round
+281,Semi-finals Replay
+282,Play-offs - Quarter-finals
+283,Supercoppa Lega Pro 1 - Finals
+284,Promotion Play-offs Girone A - Semi-finals
+285,Relegation Play-offs Girone A - Finals
+286,Promotion Play-offs Girone B - Semi-finals
+287,Relegation Play-offs Girone B - Finals
+288,Promotion Play-offs Girone A - Finals
+289,Promotion Play-offs Girone B - Finals
+290,Qualifying Final
+291,Elimination Final
+292,MLS Cup - Conference Semi-finals
+293,MLS Cup - Conference Finals
+294,Championship Round Play-offs - Quarter-finals
+295,Championship Round Play-offs - Semi-finals
+296,MLS Cup - Final
+297,Apertura Semi Final
+298,Apertura Semi-Finals
+299,Copa Libertadores Play-offs - Finals
+300,Play-offs Round
+301,Apertura - Final
+302,Apertura -  Finals
+303,Caribbean Zone 1st Round
+304,Central American 1st Round
+305,4th Round Replay
+306,Elimination Finals
+307,Relegation Play-offs - Final
+308,Semi Finals Playoff
+309,6th Place Final
+310,Play-offs II - Finals
+311,4th Place Final
+312,Relegation Play-offs - Semi-finals
+320,2nd Place
+321,Relegation Decider
+322,2nd Place - Final
+323,North-West Group C Semi Finals
+324,North-West Group C Finals
+325,Apertura - Championship Decider Final
+326,Non-FIFA Friendlies
+327,Club Friendlies 1
+328,Club Friendlies 2
+329,
+330,Play Offs - Quarter Finals
+331,Caribbean Semi-finals
+332,Caribbean Final
+333,Caribbean 3rd/4th Place Final
+334,3rd Round - Finals
+335,Sunday - 1st Round Finals
+336,Sunday - 2nd Round Finals
+337,Play-offs - 1st Round
+338,Championship - 3rd Place Final
+339,Conference - Quarter-finals
+340,Plate Semi-finals
+341,Plate Final
+342,Semi-final
+343,Play offs - 1st Round
+344,Play Offs - 2nd Round
+345,Play offs - 3rd Round
+346,2nd Round Metro
+347,3rd Round Metro
+348,4th Round Metro
+349,1st Extra Preliminary Round
+350,1st Round Metro
+351,2nd Extra Preliminary Round
+352,3rd Extra Preliminary Round
+353,3rd Preliminary Round
+354,Promotion Play-offs Girone B - Quarter-finals
+355,Promotion Play-offs Girone A - Quarter-finals
+356,Apertura 4th Place Play-offs
+357,Clausura - 4th Place Play-offs
+358,Round of 16
+359,U16
+360,U19
+361,U21
+362,64th Finals
+363,North Play-offs - Final
+364,South Play-offs - Final
+365,North Play-offs - Semi-finals
+366,South Play-offs - Semi-finals
+367,Trofeu do Interior - Semi Finals
+368,Trofeu do Interior - Finals
+369,Campeao do Interior - Finals
+370,U17
+371,U18
+372,U20
+373,U23
+374,Supercoppa Lega Pro 2 - Finals
+375,Relegation Play-offs Girone A - Semi-finals
+376,Relegation Play-offs Girone B - Semi-finals
+377,Central American Final
+378,USL Pro Play-offs - Quarter-finals
+379,USL Pro Play-offs - Semi-finals
+380,USL Pro Play-offs - Final
+381,2nd Stage - Finals
+382,Hybrid Friendlies 4
+383,Hybrid Friendlies 2
+384,Hybrid Friendlies 3
+385,Hybrid Friendlies 1
+386,Championship Decider
+387,3rd / 4th Place Play-off
+388,Preliminary Semi-finals
+389,8th Finals Play-offs
+390,Pre-Quarter Finals
+391,Qualification - Play-offs
+392,Relegation Play-offs
+393,Qualification - 1st Round
+394,Qualification - 2nd Round
+395,Taca Guanabara - Final
+396,Promotion Quarter-finals
+397,Promotion Play-offs - 1st Round Finals
+398,Play Offs - Final
+399,World Cup Play-off
+400,Promotion Play-offs - 2nd Round Finals
+401,8th Finals Replays
+402,Championship - Semi-finals
+403,Opening - Finals
+404,U22
+405,Play-offs - 4th Round
+406,Qualifying Finals
+407,Minor Semi-finals
+408,Major Semi-finals
+409,Preliminary Finals
+410,Grand Finals
+411,3rd Round Replay
+412,Championship - Quarter-finals
+413,Preliminary Play-off
+414,32nd Finals
+415,Montenegro Play-offs
+416,Championship - Final
+417,Caribbean Preliminary Round
+418,Central American Zone Qualifying Round
+419,2nd Preliminary Round Replay
+420,Copa Sudamericana Liguilla - Semi-finals
+421,Copa Libertadores Liguilla - Semi-finals
+422,Final Decider
+423,Copa Libertadores Liguilla - Final
+424,Copa Sudamericana Liguilla - Final
+425,Clausura winner Play-offs
+426,Clausura - winner Play-offs
+427,1st Place Final
+428,Promotion Semi-finals
+429,Promotion Final
+430,1st Round Qualifying Replay
+431,Copa Ciudad de La Plata
+432,Copa Ciudad de Avellaneda
+433,Copa Ciudad de Buenos Aires
+434,Copa Luis B. Nofal
+435,Copa Amistad Ciudad de Mar del Plata
+436,Caribbean 1st Round Play-offs
+437,Play-off. Week 1
+438,Play-off. Week 2
+439,Play-off. Week 3
+440,Play-off. Week 4
+441,Play-off. Week 5
+442,Play-off. Week 6
+443,Play-off. Week 7
+444,Play-off. Week 8
+445,Play-off. Week 9
+446,Play-off. Week 10
+447,Play-off. Week 11
+448,Play-off. Week 12
+449,Play-off. Week 13
+450,Play-off. Week 14
+451,Play-off. Week 15
+452,Play-off. Week 16
+453,Play-off. Week 17
+454,Play-off. Week 18
+455,Play-off. Week 19
+456,Play-off. Week 20
+457,Play-off. Week 21
+458,Play-off. Week 22
+459,Play-off. Week 23
+460,Play-off. Week 24
+461,Play-off. Week 25
+462,Play-off. Week 26
+463,Play-off. Week 27
+464,Play-off. Week 28
+465,Play-off. Week 29
+466,Play-off. Week 30
+467,Play-out. Week 1
+468,Play-out. Week 2
+469,Play-out. Week 3
+470,Play-out. Week 4
+471,Play-out. Week 5
+472,Play-out. Week 6
+473,Play-out. Week 7
+474,Play-out. Week 8
+475,Play-out. Week 9
+476,Play-out. Week 10
+477,Play-out. Week 11
+478,Play-out. Week 12
+479,Play-out. Week 13
+480,Play-out. Week 14
+481,Play-out. Week 15
+482,Play-out. Week 16
+483,Play-out. Week 17
+484,Play-out. Week 18
+485,Play-out. Week 19
+486,Play-out. Week 20
+487,Play-out. Week 21
+488,Play-out. Week 22
+489,Play-out. Week 23
+490,Play-out. Week 24
+491,Play-out. Week 25
+492,Play-out. Week 26
+493,Play-out. Week 27
+494,Play-out. Week 28
+495,Play-out. Week 29
+496,Play-out. Week 30
+497,Relegation. Week 1
+498,Relegation. Week 2
+499,Relegation. Week 3
+500,Relegation. Week 4
+501,Championship. Week 1
+502,Championship. Week 2
+503,Championship. Week 3
+504,Championship. Week 4
+505,Relegation. Week 5
+506,Relegation. Week 6
+507,Relegation. Week 7
+508,Championship. Week 5
+509,Championship. Week 6
+510,Championship. Week 7
+511,2nd Phase
+512,15th Place Final
+513,13th Place Final
+514,6th Round Replay
+515,Relegation. Week 8
+516,Championship. Week 8
+517,Finals do Interior
+518,Championship. Week 9
+519,Championship. Week 10
+520,Championship. Week 11
+521,Championship. Week 12
+522,Relegation. Week 9
+523,Relegation. Week 10
+524,Relegation. Week 11
+525,Relegation. Week 12
+526,Play-offs I. Round 1
+527,Play-offs I. Round 2
+528,Play-offs I. Round 3
+529,Play-offs I. Round 4
+530,Play-offs I. Round 5
+531,Play-offs I. Round 6
+532,Play-offs I. Round 7
+533,Play-offs I. Round 8
+534,Play-offs I. Round 9
+535,Play-offs I. Round 10
+536,Play-offs II. Round 1
+537,Play-offs II. Round 2
+538,Play-offs II. Round 3
+539,Play-offs II. Round 4
+540,Play-offs II. Round 5
+541,Play-offs II. Round 6
+542,Play-offs II. Round 7
+543,Play-offs II. Round 8
+544,Play-offs II. Round 9
+545,Play-offs II. Round 10
+546,Copa Libertadores Play-offs
+547,Intermediate Round
+548,Preliminary Promotion Play-offs - Semi-finals
+549,Preliminary Promotion Play-offs - Finals
+550,Champion Play-offs - Semi-finals
+551,Qualification 1st Round
+552,Play-offs - 2nd Round
+553,Champion Play-offs - Finals
+554,Serie de Ouverture - Semi-finals
+555,Serie de Ouverture - Finals
+556,Opening - Semi-finals
+557,Closing - Semi-finals
+558,Closing - Finals
+559,Lega Pro - 8th Finals
+560,Lega Pro - Quarter-finals
+561,Lega Pro - Semi-finals
+562,Lega Pro - Final
+563,Zondag - 1st Round
+564,Zondag - 2nd Round
+565,Zaterdag Finals
+566,Zondag - Finals
+567,Regional lap. Krasnoyarsk
+568,Regional lap. Khabarovsk
+569,Regional lap. Asha
+570,Regional lap. Smolensk
+571,Regional lap. Ulyanovsk
+572,Regional lap. Kirovsk
+573,Small Final
+574,All-Star Game
+575,Homegrown Game
+576,Southern - 1st Round
+577,North - Semi Finals
+578,South - Final
+579,North - Final
+580,1st Preliminary Round Replays
+581,Qualification Final
+582,Southern - 2nd Round
+583,Promotion Play-offs - 3rd Place Final
+584,Apertura - 8th Finals
+585,Regional Semi-finals
+586,Regional Finals
+587,Group 18
+588,Group 17
+589,Group 16
+590,Group 15
+591,Group 14
+592,Group 13
+593,Champion Play-offs - Final
+594,9th-16th Place Play-offs - Finals
+595,9th-12th Place Play-offs - Finals
+596,13th-16th Place Play-offs - Finals
+597,5th-8th Place Play-offs - Finals
+598,Mar del Plata
+599,"Copa Clasico del Sur, Mar del Plata"
+600,Copa Provincia Salta
+601,Copa Desafio de Cordoba
+602,Group A - 1st Round Qualifying
+603,Group B - 1st Round Qualifying
+604,Group B - 2nd Round Qualifying
+605,Fase Final Filiales ? Apertura Final
+606,Group B - 3rd Round Qualifying
+607,Clausura - 8th Finals
+608,Quadrangular Extra da Taca Rio - Semi-Finals
+609,Quadrangular Extra da Taca Rio - Final
+610,Runners Up Play Off
+611,Apertura - week 1
+612,Apertura - week 2
+613,Apertura - week 3
+614,Apertura - week 4
+615,Apertura - week 5
+616,Apertura - week 6
+617,Apertura - week 7
+618,Apertura - week 8
+619,Apertura - week 9
+620,Apertura - week 10
+621,Apertura - week 11
+622,Apertura - week 12
+623,Apertura - week 13
+624,Apertura - week 14
+625,Apertura - week 15
+626,Clausura - week 1
+627,Clausura - week 2
+628,Clausura - week 3
+629,Clausura - week 4
+630,Clausura - week 5
+631,Clausura - week 6
+632,Clausura - week 7
+633,Clausura - week 8
+634,Clausura - week 9
+635,Clausura - week 10
+636,Clausura - week 11
+637,Clausura - week 12
+638,Clausura - week 13
+639,Clausura - week 14
+640,Clausura - week 15
+641,Promotion Play-offs - 3rd Round Finals
+642,World Cup Play-offs - Finals
+643,Zonal Semi-Finals
+644,Promotion Play-offs - 4th Round Finals
+645,Relegation Play-offs - Preliminary Final
+646,Promotion Play-offs - 5th Round Finals
+647,Relegation Play-off Decider
+648,Intermediate Round - Final
+651,Pre-Qualifying Round
+707,Ligue 1
+708,European Championship
+709,Primera Division
+710,Taca de Portugal
+711,CONCACAF Champions League
+712,UEFA U21 Championship
+713,jornada30
+714,jornada31
+715,jornada32
+716,jornada34
+717,jornada33
+718,jornada35
+719,jornada36
+720,jornada38
+722,Clausura - week 16
+723,Clausura - week 17
+724,Clausura - week 18
+725,Clausura - week 19
+726,Clausura - week 20
+727,Clausura - week 21
+728,Clausura - week 22
+746,Relegation. Week 13
+747,Relegation. Week 14
