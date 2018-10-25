@@ -43,7 +43,8 @@ LEAGUES_URL = '{}leagues/?accept=json&api_key={}&sig={}'
 # Standard tables
 STANDARD_TABLES = [
     'actions', 'body_parts', 'standards', 'positions', 'seasons',
-    'attack_status', 'attack_types', 'possession_types'
+    'attack_status', 'attack_types', 'possession_types', 'zones',
+    'games_status', 'rounds'
 ]
 
 STATS_TABLES = [
