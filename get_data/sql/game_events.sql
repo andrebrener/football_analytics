@@ -29,6 +29,7 @@ CREATE TABLE game_events (
  formation VARCHAR (355),
  is_pass smallint,
  is_shot smallint,
+ is_key smallint,
  is_change_formation smallint
  );
 

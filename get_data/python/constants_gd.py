@@ -112,6 +112,7 @@ GAME_EVENTS_COLS = {
     'is_pass': 'is_pass',
     'is_shot': 'is_shot',
     'is_change_formation': 'is_change_formation',
+    'is_key': 'is_key',
     'zone_id': 'zone_id',
 }
 
@@ -191,6 +192,9 @@ ACTION_CODES = {
     'pass': [28010, 28011, 28012, 28030, 1011, 1020, 1031, 1061, 1070]
 }
 
+ATTACKING_PASS_CODES = [1011, 1031]
+CROSS_CODES = [26001, 28043]
+
 FORMATION_CODES = [
     15020, 15030, 15040, 15050, 15060, 15070, 15080, 15090, 15100, 15110
 ]
@@ -210,5 +214,7 @@ KICKOFF_CODES = [1021]
 # tactical points
 # average positions
 # substitute player
+# Accurate crossing from set piece with a shot
+# Accurate crossing from set piece with a goal
 
-REMOVE_CODES = [29010, 25000, 25010, 25020, 161000]
+REMOVE_CODES = [29010, 25000, 25010, 25020, 161000, 28045, 28044]

@@ -30,9 +30,8 @@ OWN_GOAL_IDS = [8020]
 RED_CARD_IDS = [3030]
 
 # Air challenges
-# Crosses accurate
 # Accurate crossing from set piece with a shot
-REMOVE_CODES = [2020, 26001, 28044]
+REMOVE_CODES = [2020, 28045]
 
 # Assists to passes
 ASSIST_DICT = {1050: 1031, 1040: 1010, 1000: 1061}
@@ -51,6 +50,7 @@ FIXED_DUMMIES = {
     ],
     'len_range': ['very_short', 'short', 'far', 'very_far'],
     'in_first_11': ['0', '1'],
+    'is_key': ['0', '1'],
     'home_away': ['home', 'away'],
     'attack_type_id': [str(x) for x in range(1, 7)],
     'play_standard_id': [str(x) for x in range(1, 9)],
