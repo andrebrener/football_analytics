@@ -29,9 +29,14 @@ OWN_GOAL_IDS = [8020]
 
 RED_CARD_IDS = [3030]
 
+ATTACKING_PASS_CODES = [1011, 1031]
+CROSS_CODES = [26001, 28043]
+
 # Air challenges
 # Accurate crossing from set piece with a shot
-REMOVE_CODES = [2020, 28045]
+# Accurate crossing from set piece with a goal
+
+REMOVE_CODES = [2020, 28045, 28044]
 
 # Assists to passes
 ASSIST_DICT = {1050: 1031, 1040: 1010, 1000: 1061}

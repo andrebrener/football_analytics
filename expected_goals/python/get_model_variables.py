@@ -1,6 +1,6 @@
 from constants_xg import (
-    ASSIST_DICT, GOAL_IDS, OWN_GOAL_IDS, POS_START_IDS, RED_CARD_IDS,
-    REMOVE_CODES, SET_PIECE_STANDARDS
+    ASSIST_DICT, ATTACKING_PASS_CODES, CROSS_CODES, GOAL_IDS, OWN_GOAL_IDS,
+    POS_START_IDS, RED_CARD_IDS, REMOVE_CODES, SET_PIECE_STANDARDS
 )
 
 
@@ -198,6 +198,40 @@ def get_clean_df(df):
     )
 
     return clean_df
+
+
+def get_crosses(df):
+    if df['next_action_id'] in CROSS_CODES and df['action_id'
+                                                  ] in ATTACKING_PASS_CODES:
+        return CROSS_CODES[0]
+    else:
+        return df['action_id']
+
+
+def get_remove_crosses(df):
+    if df['action_id'] in CROSS_CODES:
+        if df['prev_action_id'] in ATTACKING_PASS_CODES or df['prev_action_id'
+                                                              ] in CROSS_CODES:
+            return 1
+        else:
+            return 0
+    else:
+        return 0
+
+
+def identify_crosses(df):
+    # Change attacking pass code marker when it is actually a cross
+    df['next_action_id'] = df['action_id'].shift(-1)
+    df['prev_action_id'] = df['action_id'].shift()
+
+    df['action_id'] = df.apply(lambda x: get_crosses(x), axis=1)
+
+    # Remove crosses markers
+    df['remove_cross'] = df.apply(lambda x: get_remove_crosses(x), axis=1)
+
+    final_df = df[df['remove_cross'] == 0].copy()
+
+    return final_df
 
 
 def process_game(df):

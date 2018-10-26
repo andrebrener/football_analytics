@@ -1,9 +1,8 @@
 import pandas as pd
 
 from constants_gd import (
-    ACTION_CODES, ATTACKING_PASS_CODES, CROSS_CODES, FORMATION_CODES,
-    GAME_EVENTS_COLS, INITIAL_CODES, KICKOFF_CODES, POSITION_CODES,
-    REMOVE_CODES
+    ACTION_CODES, FORMATION_CODES, GAME_EVENTS_COLS, INITIAL_CODES,
+    KICKOFF_CODES, POSITION_CODES, REMOVE_CODES
 )
 
 
@@ -45,25 +44,6 @@ def get_change_formation(df):
         return 0
     elif df['is_formation'] > 0:
         return 1
-    else:
-        return 0
-
-
-def get_crosses(df):
-    if df['next_action_id'] in CROSS_CODES and df['action_id'
-                                                  ] in ATTACKING_PASS_CODES:
-        return CROSS_CODES[0]
-    else:
-        return df['action_id']
-
-
-def get_remove_crosses(df):
-    if df['action_id'] in CROSS_CODES:
-        if df['prev_action_id'] in ATTACKING_PASS_CODES or df['prev_action_id'
-                                                              ] in CROSS_CODES:
-            return 1
-        else:
-            return 0
     else:
         return 0
 
@@ -164,21 +144,6 @@ def correct_time(df):
     return game_df
 
 
-def identify_crosses(df):
-    # Change attacking pass code marker when it is actually a cross
-    df['next_action_id'] = df['action_id'].shift(-1)
-    df['prev_action_id'] = df['action_id'].shift()
-
-    df['action_id'] = df.apply(lambda x: get_crosses(x), axis=1)
-
-    # Remove crosses markers
-    df['remove_cross'] = df.apply(lambda x: get_remove_crosses(x), axis=1)
-
-    final_df = df[df['remove_cross'] == 0].copy()
-
-    return final_df
-
-
 def get_clean_df(df):
 
     no_format_cols = ['formation', 'home_away']
@@ -210,8 +175,7 @@ def process_game(df):
     time_df = correct_time(clean_df)
     df_with_formations = clean_formations(time_df)
     action_df = get_action_cols(df_with_formations)
-    rival_df = add_rival(action_df)
-    final_df = identify_crosses(rival_df)
+    final_df = add_rival(action_df)
 
     sel_cols = list(GAME_EVENTS_COLS.keys())
 
